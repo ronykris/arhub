@@ -35,5 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+testwallet.json
 wallet.json
 transactionid.js
+cache
+.vscode
+*.tar
