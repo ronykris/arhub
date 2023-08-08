@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import FileList from '../components/FileList'
+import FileDetails from '../components/FileDetails'
 
 export default function Home() {
   return (
@@ -18,6 +20,11 @@ export default function Home() {
         <p className='p-2 text-2xl text-center'>
           The authentic decentralized container registry and hub.          
         </p>
+
+        <div className="flex p-8">
+          <FileList files={filesData} onItemClick={handleItemClick} />
+          {/*<FileDetails selectedFile={selectedFile} />*/}
+        </div>
       </main>
     </div>
   )
