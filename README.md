@@ -42,7 +42,14 @@ arhub$
 
 ```
 
-### Tech Stack
+### Roadmap
+
+Add support for the following
+1. Docker plugin
+2. Image privacy
+3. User account
+
+
 
 
 
