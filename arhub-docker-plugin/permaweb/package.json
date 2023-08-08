@@ -1,0 +1,20 @@
+{
+  "name": "arhub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node upload.js"    
+  },
+  "dependencies": {    
+    "arweave": "^1.14.4",
+    "arweavekit": "^1.4.8",        
+    "path": "^0.12.7",    
+    "warp-contracts": "^1.4.14",
+    "warp-contracts-plugin-deploy": "^1.0.9"
+  },
+  "devDependencies": {    
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12"
+  }
+}

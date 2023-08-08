@@ -1,0 +1,7 @@
+(base) roger@roger:~/dev/arhub/permaweb$ docker run -v /home/roger/dev/arhub/permaweb/img:/app/img -it arhubpush:latest img/hello-world.tar
+Executing:
+* img/hello-world.tar
+18099533756
+{ status: 200, statusText: 'OK', data: {} }
+Txn a16LDJ79nPE1QTKADNniJfVemAPKmsG4bvDXIBGUXvs completed with status [object Object]
+uri: https://www.arweave.net/a16LDJ79nPE1QTKADNniJfVemAPKmsG4bvDXIBGUXvs

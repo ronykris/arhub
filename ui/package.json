@@ -12,17 +12,15 @@
   "dependencies": {
     "@bundlr-network/client": "^0.10.5",
     "arweave": "^1.14.4",
-    "axios": "^1.4.0",
-    "crypto": "^1.0.1",
+    "arweavekit": "^1.4.8",
+    "dockerode": "^3.3.5",
     "next": "13.4.12",
     "path": "^0.12.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tar-fs": "^3.0.4",
     "uuid": "^9.0.0",
     "warp-contracts": "^1.4.14",
-    "warp-contracts-plugin-deploy": "^1.0.9",
-    "webcrypto": "^0.1.1"
+    "warp-contracts-plugin-deploy": "^1.0.9"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
