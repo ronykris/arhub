@@ -37,7 +37,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='flex flex-col h-screen justify-center align-middle p-4 max-w-[60%] mx-auto'>
+      <main className='flex flex-col h-screen justify-center align-middle p-4 max-w-[90%] mx-auto'>
         <h1 className='text-6xl  text-blue-500 text-center p-10 mb-3 font-medium  '>
           Welcome to <a href="https://nextjs.org">ArHub!</a>
         </h1>
