@@ -1,14 +1,16 @@
 
 
 const FileDetails = ({ selectedFile }) => {
+  console.log(selectedFile)
   return (
     <div className="flex-grow p-4">
       {selectedFile ? (
         <div>
           <h2 className="text-lg font-semibold mb-4">File Details</h2>
           <div className="bg-white p-4 rounded shadow">
-            <h3 className="text-md font-medium mb-2">{selectedFile.name}</h3>
-            <p className="text-gray-600">{selectedFile.details}</p>
+            <h3 className="text-md font-medium mb-2 p-2">Image Name: {selectedFile.imageName}</h3>
+            <p className="text-gray-600 p-2 mb-2">ID: {selectedFile.imageId}</p>            
+            <code className="p-2">arhub pull {selectedFile.imageId}</code>            
           </div>
         </div>
       ) : (

@@ -5,8 +5,9 @@ import { queryAllTransactionsGQL } from 'arweavekit/graphql'
 import { getTransaction } from 'arweavekit/transaction'
 
 
-export default function getImageList(req, res) {
-  const images = queryAllImages()
+export default async function getImageList(req, res) {
+  const images = await queryAllImages()
+  console.log('API: ', images)
   if (images) {
     res.status(200).json(images)
   } else {
@@ -105,7 +106,7 @@ const queryAllImages = async () => {
       }
       images.push(imageObj)      
     }
-    console.log(images)
+    //console.log(images)
     return images
   } catch (e) { 
     throw new Error('Failed to get images...', e)
