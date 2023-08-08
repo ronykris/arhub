@@ -38,11 +38,11 @@ const Home = () => {
       </Head>
 
       <main className='flex flex-col h-screen justify-center align-middle p-4'>
-        <h1 className='text-6xl  text-blue-500 text-center p-10  '>
+        <h1 className='text-6xl  text-blue-500 text-center p-10 mb-3 '>
           Welcome to <a href="https://nextjs.org">ArHub!</a>
         </h1>
 
-        <p className='p-2 text-2xl text-center'>
+        <p className='p-2 text-2xl text-center mb-3'>
           The authentic decentralized docker container registry and hub.          
         </p>
 
