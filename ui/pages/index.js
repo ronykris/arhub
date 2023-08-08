@@ -37,12 +37,12 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='flex flex-col h-screen justify-center align-middle p-4 max-w-[70%] mx-auto'>
-        <h1 className='text-6xl  text-blue-500 text-center p-10 mb-3 '>
+      <main className='flex flex-col h-screen justify-center align-middle p-4 max-w-[60%] mx-auto'>
+        <h1 className='text-6xl  text-blue-500 text-center p-10 mb-3 font-medium  '>
           Welcome to <a href="https://nextjs.org">ArHub!</a>
         </h1>
 
-        <p className='p-2 text-2xl text-center mb-3'>
+        <p className='p-2 text-2xl text-center mb-3 font-normal'>
           The authentic decentralized docker container registry and hub.          
         </p>
 
